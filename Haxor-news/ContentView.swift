@@ -10,10 +10,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        List(posts){post in
-            Text(post.newsTitle)
+        NavigationView{
+            List(posts){ post in
+                Text(post.newsTitle)
+            }
+                
+            .navigationBarTitle("Haxor News")
         }
-       
     }
 }
 
@@ -24,8 +27,8 @@ struct ContentView_Previews: PreviewProvider {
 }
 
 let posts = [
-       post(id: "1",newsTitle: "baskoro",newsDescription: "7 years experience as ios engineer"),
-       post(id: "1",newsTitle: "baskoro",newsDescription: "7 years experience as ios engineer")
+    post(id: "1",newsTitle: "baskoro",newsDescription: "7 years experience as ios engineer"),
+    post(id: "1",newsTitle: "baskoro",newsDescription: "7 years experience as ios engineer")
 ]
 
 struct post:Identifiable{

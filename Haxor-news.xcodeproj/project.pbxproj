@@ -15,6 +15,7 @@
 		0D6DA57C23ED0DDE0000D1F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D6DA57A23ED0DDE0000D1F7 /* LaunchScreen.storyboard */; };
 		0D6DA58723ED0DDE0000D1F7 /* Haxor_newsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6DA58623ED0DDE0000D1F7 /* Haxor_newsTests.swift */; };
 		0D6DA59223ED0DDE0000D1F7 /* Haxor_newsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6DA59123ED0DDE0000D1F7 /* Haxor_newsUITests.swift */; };
+		0DF44A8323ED1A6700AD0FCD /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF44A8223ED1A6700AD0FCD /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0D6DA58D23ED0DDE0000D1F7 /* Haxor-newsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Haxor-newsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D6DA59123ED0DDE0000D1F7 /* Haxor_newsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haxor_newsUITests.swift; sourceTree = "<group>"; };
 		0D6DA59323ED0DDE0000D1F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DF44A8223ED1A6700AD0FCD /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				0D6DA57A23ED0DDE0000D1F7 /* LaunchScreen.storyboard */,
 				0D6DA57D23ED0DDE0000D1F7 /* Info.plist */,
 				0D6DA57723ED0DDE0000D1F7 /* Preview Content */,
+				0DF44A8223ED1A6700AD0FCD /* NetworkManager.swift */,
 			);
 			path = "Haxor-news";
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DF44A8323ED1A6700AD0FCD /* NetworkManager.swift in Sources */,
 				0D6DA57023ED0DDC0000D1F7 /* AppDelegate.swift in Sources */,
 				0D6DA57223ED0DDC0000D1F7 /* SceneDelegate.swift in Sources */,
 				0D6DA57423ED0DDC0000D1F7 /* ContentView.swift in Sources */,
