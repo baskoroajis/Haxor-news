@@ -10,10 +10,10 @@ import Foundation
 
 class NetworkManager{
     
-    func fetchData(){
-        if let  url = ("http://hn.algolia.com/api/v1/search?tags=front_page"){
-            let session = URLSession
-        }
-        
-    }
+//    func fetchData(){
+//        if let  url = ("http://hn.algolia.com/api/v1/search?tags=front_page"){
+//            let session = URLSession
+//        }
+//        
+//    }
 }
